@@ -1,0 +1,156 @@
+#Instructions
+print("")
+print("Weight Unit converter.")
+print("By Yazan Alshareef")
+
+print("")
+print("Available Units:")
+print("kg")
+print("g")
+print("lb")
+print("oz")
+print("ton")
+print("")
+print("Note: use a unit from the ones written above, enter them as they are written without adding any characters in lowercase")
+print("")
+
+#Input Variables
+
+number = input("Enter a Number:")
+
+print("")
+first_unit = input("Enter unit you want to convert from:")
+
+sec_unit = input("Enter the unit you want to conver to:")
+
+
+#Kg to G
+if first_unit == "Kg" and sec_unit == "g":
+    ans = float(number)*1000
+    print(ans, sec_unit)
+
+elif first_unit == "kg" and sec_unit == "g":
+    ans = float(number)*1000
+    print(ans, sec_unit)
+
+elif first_unit == "KG" and sec_unit == "g":
+    ans = float(number)*1000
+    print(ans, sec_unit)
+
+elif first_unit == "kg" and sec_unit == "G":
+    ans = float(number)*1000
+    print(ans, sec_unit)
+
+elif first_unit == "KG" and sec_unit == "G":
+    ans = float(number)*1000
+    print(ans, sec_unit)
+
+elif first_unit == "Kg" and sec_unit == "G":
+    ans = float(number)*1000
+    print(ans, sec_unit)
+
+
+
+elif first_unit == "kg" and sec_unit == "lb":
+    ans = float(number)*2.20462
+    print(ans, sec_unit)
+
+elif first_unit == "kg" and sec_unit == "oz":
+    ans = float(number)*35.274
+    print(ans, sec_unit)
+
+elif first_unit == "kg" and sec_unit == "ton":
+    ans = float(number)*0.00110231
+    print(ans, sec_unit)
+
+elif first_unit == "g" and sec_unit == "kg":
+    ans = float(number)/1000
+    print(ans, sec_unit)
+
+elif first_unit == "g" and sec_unit == "lb":
+    ans = float(number)*0.00220462
+    print(ans, sec_unit)
+
+elif first_unit == "g" and sec_unit == "oz":
+    ans = float(number)*0.035274
+    print(ans, sec_unit)
+
+elif first_unit == "g" and sec_unit == "ton":
+    ans = float(number)/907185
+    print(ans, sec_unit)
+
+elif first_unit == "lb" and sec_unit == "kg":
+    ans = float(number)*0.453592
+    print(ans, sec_unit)
+
+elif first_unit == "lb" and sec_unit == "kg":
+    ans = float(number)*453.592
+    print(ans, sec_unit)
+
+elif first_unit == "lb" and sec_unit == "oz":
+    ans = float(number)*16
+    print(ans, sec_unit)
+
+elif first_unit == "lb" and sec_unit == "ton":
+    ans = float(number)/2000
+    print(ans, sec_unit)
+
+elif first_unit == "lb" and sec_unit == "lb":
+    ans = float(number)
+    print(ans, sec_unit)
+
+elif first_unit == "kg" and sec_unit == "kg":
+    ans = float(number)
+    print(ans, sec_unit)
+
+elif first_unit == "g" and sec_unit == "g":
+    ans = float(number)
+    print(ans, sec_unit)
+
+elif first_unit == "oz" and sec_unit == "oz":
+    ans = float(number)
+    print(ans, sec_unit)
+
+elif first_unit == "ton" and sec_unit == "ton":
+    ans = float(number)
+    print(ans, sec_unit)
+
+elif first_unit == "oz" and sec_unit == "oz":
+    ans = float(number)
+    print(ans, sec_unit)
+
+elif first_unit == "oz" and sec_unit == "kg":
+    ans = float(number)/35.274
+    print(ans, sec_unit)
+
+elif first_unit == "oz" and sec_unit == "g":
+    ans = float(number)*28.3495
+    print(ans, sec_unit)
+
+elif first_unit == "oz" and sec_unit == "lb":
+    ans = float(number)/16
+    print(ans, sec_unit)
+
+elif first_unit == "oz" and sec_unit == "ton":
+    ans = float(number)/32000
+    print(ans, sec_unit)
+
+elif first_unit == "ton" and sec_unit == "kg":
+    ans = float(number)*907.185
+    print(ans, sec_unit)
+
+elif first_unit == "ton" and sec_unit == "g":
+    ans = float(number)*907185
+    print(ans, sec_unit)
+
+elif first_unit == "ton" and sec_unit == "oz":
+    ans = float(number)*32000
+    print(ans, sec_unit)
+
+elif first_unit == "ton" and sec_unit == "lb":
+    ans = float(number)*2000
+    print(ans, sec_unit)
+
+else:
+    print("invalid input")
+    
